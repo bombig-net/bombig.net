@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="de" className={`${GeistSans.variable} ${Euclid.variable}`} suppressHydrationWarning>
+    <html lang="de" className={`${GeistSans.variable} ${Euclid.variable}`}>
       <body className="text-base antialiased">
         <header>
           {/* headers goes here */}
