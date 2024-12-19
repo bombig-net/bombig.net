@@ -3,6 +3,9 @@ import { GeistSans } from 'geist/font/sans'
 import localFont from 'next/font/local'
 import "./globals.css";
 
+import Header from "@/components/sections/Header";
+import Footer from "@/components/sections/Footer";
+
 const Euclid = localFont({ src: '../fonts/EuclidCircularB-Semibold-WebTrial.woff', variable: '--font-euclid' })
 
 export const metadata: Metadata = {
@@ -17,13 +20,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de" className={`${GeistSans.variable} ${Euclid.variable}`}>
-      <body className="text-base antialiased">
+      <body className="bg-jordy-950 text-base text-jordy-50 antialiased">
         <header>
-          {/* headers goes here */}
+          <Header />
         </header>
-        {children}
+        <main>
+          {children}
+        </main>
         <footer>
-          {/* footer goes here */}
+          <Footer />
         </footer>
       </body>
     </html>
