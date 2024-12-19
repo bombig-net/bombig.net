@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+    --letter-spacing-tightest: -0.05em;
+    --letter-spacing-tighter: -0.035em;
+    --letter-spacing-tight: -0.025em;
+    --letter-spacing-normal: 0em;
+    --letter-spacing-wide: 0.025em;
+    --letter-spacing-wider: 0.035em;
+    --letter-spacing-widest: 0.05em;
+
+    --line-height-3: 1rem;
+    --line-height-4: 1.25rem;
+    --line-height-5: 2rem;
+    --line-height-6: 2.25rem;
+    --line-height-7: 2.75rem;
+    --line-height-8: 3.5rem;
+    --line-height-9: 4.5rem;
+    --line-height-10: 6rem;
+    --line-height-11: 7.5rem;
+
+    --font-size-xs: 0.6875rem;
+    --font-size-sm: 0.9375rem;
+    --font-size-base: 1.25rem;
+    --font-size-lg: 1.6875rem;
+    --font-size-xl: 2.25rem;
+    --font-size-2xl: 2.9375rem;
+    --font-size-3xl: 3.9375rem;
+    --font-size-4xl: 5.25rem;
+    --font-size-5xl: 7rem;
+    --font-size-6xl: 9.375rem;
+    --font-size-7xl: 12.4375rem;
+    --font-size-8xl: 16.625rem;
+    --font-size-9xl: 22.125rem;
+  }
+}
