@@ -1,4 +1,4 @@
-import Section from '@/components/Section';
+import Section from '@/components/elements/Section';
 
 export default function Placeholder() {
     return (

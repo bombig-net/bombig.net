@@ -3,7 +3,7 @@ import { GeistSans } from 'geist/font/sans'
 import localFont from 'next/font/local'
 import "./globals.css";
 
-import Header from "@/components/sections/Header";
+import { Header } from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
 
 const Euclid = localFont({ src: '../fonts/EuclidCircularB-Semibold-WebTrial.woff', variable: '--font-euclid' })

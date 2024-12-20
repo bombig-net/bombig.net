@@ -1,3 +1,9 @@
-export default function Header() {
-    return (<></>);
-}
+import { Navigation } from "@/components/elements/Navigation";
+
+export const Header = () => {
+    return (
+        <>
+            <Navigation />
+        </>
+    );
+};
