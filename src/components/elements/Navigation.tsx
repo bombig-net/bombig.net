@@ -22,7 +22,7 @@ export const Navigation = () => {
 
     return (
         <>
-            <div className={`top-0 z-50 fixed w-full bg-gradient-to-b transition-all duration-300 ease-out ${scrolled ? 'shadow-xl backdrop-blur-lg' : ''}`}>
+            <div className={`top-0 z-50 fixed w-full ${scrolled ? 'bg-gradient-to-b from-jordy-950/90 to-transparent backdrop-blur-lg backdrop-saturate-[80%] backdrop-brightness-125' : ''}`}>
                 <nav className={`mx-auto max-w-7xl px-4 container transition-all duration-300 ease-out ${scrolled ? 'py-4' : 'lg:py-8 py-4'}`}>
                     <div className="flex justify-between items-center mx-auto w-full">
                         <Logo />
