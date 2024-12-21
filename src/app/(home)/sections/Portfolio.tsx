@@ -22,7 +22,7 @@ export default async function Portfolio() {
                             width={807}
                             height={1595}
                             alt="mockup"
-                            className="w-full h-96 lg:h-[36rem]"
+                            className="w-auto h-96 lg:h-[36rem]"
                         />
                     </div>
                 ))}
