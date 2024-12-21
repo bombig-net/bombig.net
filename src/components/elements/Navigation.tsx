@@ -34,18 +34,13 @@ export const Navigation = () => {
                     </div>
                 </nav>
             </div>
-            <MobileCTA />
+            <div className={`right-0 bottom-0 left-0 z-40 fixed flex transition-all duration-300 transform ease-out justify-center lg:hidden ${scrolled ? 'translate-y-0' : 'translate-y-full'}`}>
+                <RainbowButton className="rounded-none w-full h-14">Kostenlose Beratung</RainbowButton>
+            </div >
         </>
     );
 };
 
-const MobileCTA = () => {
-    return (
-        <div className="right-0 bottom-0 left-0 z-40 fixed flex justify-center lg:hidden">
-            <RainbowButton className="rounded-none w-full h-14">Kostenlose Beratung</RainbowButton>
-        </div>
-    );
-}
 
 const Logo = () => {
     return (
