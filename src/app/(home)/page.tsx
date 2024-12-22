@@ -1,13 +1,14 @@
-import Placeholder from '@/components/sections/Placeholder';
 import Hero from '@/app/(home)/sections/Hero';
 import Portfolio from '@/app/(home)/sections/Portfolio';
-import { Complexity } from '@/app/(home)/sections/Complexity';
+import Challenge from '@/app/(home)/sections/Challenge';
+import Reward from '@/app/(home)/sections/Reward';
 
 export default function Home() {
   return (<>
     <Hero />
     <Portfolio />
-    <Complexity />
-    <Placeholder />
+    <Challenge />
+    <Reward />
+    <div className="min-h-screen"></div>
   </>);
 }

@@ -20,7 +20,7 @@ const Badge = forwardRef<
 
 Badge.displayName = "Badge";
 
-export function Complexity() {
+export default function Challenge() {
     const containerRef = useRef<HTMLDivElement>(null);
     const col1Ref1 = useRef<HTMLDivElement>(null);
     const col1Ref2 = useRef<HTMLDivElement>(null);
@@ -32,7 +32,7 @@ export function Complexity() {
 
     return (
         <Section>
-            <h2 className="lg:mb-8 font-euclid text-center text-jordy-100 text-xl lg:text-3xl">Lass dich nicht von Oberfläche blenden. Moderne Webseiten sind hochkomplex.</h2>
+            <h2 className="lg:mb-8 font-euclid text-center text-jordy-100 text-lg lg:text-3xl">Lass dich nicht von Oberfläche blenden. Moderne Webseiten sind hochkomplex.</h2>
             <div
                 className="relative flex justify-center items-center p-10 w-full overflow-hidden"
                 ref={containerRef}
