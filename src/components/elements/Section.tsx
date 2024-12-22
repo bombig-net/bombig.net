@@ -11,7 +11,7 @@ const Section: React.FC<SectionProps> = ({
     className
 }) => {
     return (
-        <section className={cn("mx-auto px-4 py-8 max-w-7xl container", className)}>
+        <section className={cn("mx-auto lg:my-32 px-4 py-8 max-w-7xl container", className)}>
             {children}
         </section>
     );

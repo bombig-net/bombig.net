@@ -8,7 +8,7 @@ import BadgeFrosted from "@/components/elements/BadgeFrosted";
 export function AuroraHero({ className, badge, headline, paragraph }: { className?: string, badge: string, headline: string, paragraph: string }) {
     return (
         <AuroraBackground className={className}>
-            <Section className="z-10 flex flex-col justify-end items-start">
+            <Section className="z-10 flex flex-col justify-end items-start my-0">
                 <BadgeFrosted className="mb-4 lg:mb-8">
                     <span>{badge}</span>
                 </BadgeFrosted>

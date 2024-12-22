@@ -13,7 +13,7 @@ async function getMockups() {
 export default async function Portfolio() {
     const mockups = await getMockups();
     return (
-        <Section className="relative flex flex-col justify-center items-center pt-0 overflow-hidden">
+        <Section className="relative flex flex-col justify-center items-center my-0 pt-0 overflow-hidden">
             <Marquee className="[--duration:100s]">
                 {mockups.map((mockup) => (
                     <div key={mockup}>
