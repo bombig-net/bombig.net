@@ -100,21 +100,24 @@ export default async function Testimonials() {
             <h2 className="z-10 lg:mb-16 font-euclid text-center text-jordy-100 text-lg lg:text-3xl">Diese Erfahrung haben auch unsere Klienten gemacht</h2>
             <Marquee className="[--duration:100s]">
                 {reviews.map((review) => (
-                    <Card key={review.name} className="flex flex-col justify-between items-start m-0 p-0 w-96 h-auto min-h-96">
+                    <Card
+                        key={review.name}
+                        className="relative flex flex-col justify-between items-start m-0 p-0 w-72 lg:w-96 h-full min-h-72 lg:min-h-96"
+                    >
                         <CardHeader>
-                            <Image className="bg-orange-300 mb-8 w-48 h-16" src={review.logoUrl} alt={review.company} width={80} height={80} />
+                            <Image className="bg-orange-300 mb-4 lg:mb-8 w-32 lg:w-48 h-12 lg:h-16" src={review.logoUrl} alt={review.company} width={80} height={80} />
                             <div className="flex flex-row">
                                 <div>
-                                    <Image className="bg-orange-300 rounded-full" src={review.portraitUrl} alt={review.name} width={80} height={80} />
+                                    <Image className="bg-orange-300 rounded-full w-16 lg:w-20 h-16 lg:h-20" src={review.portraitUrl} alt={review.name} width={80} height={80} />
                                 </div>
                                 <div className="flex flex-col justify-center pl-4">
-                                    <CardTitle>{review.name}</CardTitle>
-                                    <CardDescription>{review.position}</CardDescription>
+                                    <CardTitle className="text-sm lg:text-base">{review.name}</CardTitle>
+                                    <CardDescription className="text-xs lg:text-sm">{review.position}</CardDescription>
                                 </div>
                             </div>
                         </CardHeader>
                         <CardContent>
-                            <p>{review.text}</p>
+                            <p className="text-sm lg:text-base">{review.text}</p>
                         </CardContent>
                     </Card>
                 ))}
