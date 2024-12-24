@@ -3,8 +3,6 @@
 import React from "react";
 import Section from "@/components/elements/Section";
 import CardStack from "@/components/elements/CardStack";
-import { IconType } from "react-icons";
-import { FaGoogle, FaShoppingCart, FaUsers, FaBriefcase } from "react-icons/fa";
 import { Card, CardHeader, CardContent } from "@/components/elements/Card";
 
 interface ProcessCardProps {
