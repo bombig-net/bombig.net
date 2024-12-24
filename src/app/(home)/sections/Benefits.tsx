@@ -11,7 +11,7 @@ const benefits = [
         description: "Unser Fokus ist eindeutig: Wir berücksichtigen alles, was für den Erfolg einer Website entscheidend ist. Nicht mehr, nicht weniger.",
         cta: "Erfahre mehr über uns",
         ctaHref: "#",
-        image: "/illustrations/benefits.png"
+        image: "/placeholder.png"
     }
 ];
 

@@ -15,6 +15,5 @@ export default function Home() {
     <Testimonials />
     <Benefits />
     <Solutions />
-    <div className="min-h-screen"></div>
   </>);
 }
