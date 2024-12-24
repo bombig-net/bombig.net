@@ -4,6 +4,7 @@ import Challenge from '@/app/(home)/sections/Challenge';
 import Reward from '@/app/(home)/sections/Reward';
 import Testimonials from '@/app/(home)/sections/Testimonials';
 import Benefits from '@/app/(home)/sections/Benefits';
+import Solutions from '@/app/(home)/sections/Solutions';
 
 export default function Home() {
   return (<>
@@ -13,6 +14,7 @@ export default function Home() {
     <Reward />
     <Testimonials />
     <Benefits />
+    <Solutions />
     <div className="min-h-screen"></div>
   </>);
 }
